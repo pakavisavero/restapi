@@ -1,0 +1,23 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Latihan Node Js +MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakavisavero/restapi.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MySQL"
+  ],
+  "author": "Savero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pakavisavero/restapi/issues"
+  },
+  "homepage": "https://github.com/pakavisavero/restapi#readme"
+}
