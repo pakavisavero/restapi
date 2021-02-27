@@ -1,17 +1,15 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const app = express();
 
-
-// Parse app/json
-app.use(bodyParser.urlencoded({extended: true}));
-app.use(bodyParser.json());
-
-//panggil routes
+app.use(express.urlencoded({extended: true}));
+app.use(express.json());
 
 var routes = require('./routes');
+
 routes(app);
 
-app.listen(3306, () => {
+app.listen(3000, () => {
     console.log(`Server started on port`);
+
 });
